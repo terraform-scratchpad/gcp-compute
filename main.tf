@@ -8,7 +8,7 @@ terraform {
 
 # terraform google provider
 provider "google" {
-  version = "1.15.0"
+  version = "2.5.0"
   region = "${var.region}"
 }
 
